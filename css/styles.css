@@ -1,0 +1,161 @@
+body {
+    margin-top: 0;
+}
+
+/*****Top-heading*****/
+.top-heading {
+    background-color: rgb(238, 238, 238);
+    border: 0;
+    color: #999999;
+    display: flex;
+    height: 40px;
+    margin-top: 0;
+    padding: 0 80px;
+}
+
+.top-heading-inner {
+    bottom: 5px;
+    position: relative;
+}
+.top-heading-desc {
+    bottom: 5px;
+    position: relative;
+}
+
+.logo-phone1 {
+    float: left;
+    height: 20px;
+    margin-right: 0px;
+    width: 25px;
+}
+
+.top-heading-detail {
+    color: #999999;
+    font-size: 12px;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.top-heading-digit:hover {
+    text-decoration: underline;
+}
+
+/***** Top-heading Ends*****/
+
+/***** MAIN HEADER****/
+.main-header {
+    display: flex;
+    padding: 0 80px;
+    position: relative;
+}
+.header-1 {
+    display: flex;
+    width: 40%;
+}
+.main-logo {
+    height: 45px;
+    position: relative;
+    top: 27px;
+    width: 47px;
+}
+
+.main-header-name {
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
+        Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.main-header-wash {
+    color: #0693e3;
+}
+
+.logo-roadside {
+    line-height: 1;
+    width: 15%;
+}
+
+.logo-word {
+    position: relative;
+    top: 27px;
+}
+
+.logo-phone {
+    float: left;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 27px;
+    width: 25px;
+}
+
+.logo-time {
+    position: relative;
+    top: 27px;
+}
+
+.logo-clock {
+    position: relative;
+    top: 27px;
+}
+
+.logo-business {
+    line-height: 1;
+    width: 15%;
+}
+
+.logo-opening {
+    line-height: 1;
+    width: 15%;
+}
+.logo-clock {
+    float: left;
+    height: 20px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.logo-word {
+    color: #999999;
+    font-size: 400;
+}
+
+.logo-time {
+    color: #676767;
+    font-weight: 600;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 18px;
+    height: 60%;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    text-decoration: none;
+    top: 35px;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+/**** MAIN HEADER ENDS*****/
+
+.header-2 {
+}

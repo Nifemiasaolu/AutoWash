@@ -182,10 +182,13 @@ body {
     list-style: none;
 }
 
+
 .menu-bar ul li {
     padding: 10px 10px 10px 40px;
     position: relative;
+    
 }
+
 
 .menu-bar ul li a {
     color: #ffffff;
@@ -193,11 +196,14 @@ body {
     transition: all 0.3s;
 }
 
-
+.menu-bar ul li a:hover{
+    color: #3498db;
+}
 
 .dropdown-menu {
     display: none;
     margin-top: 0;
+    transition: all 3s;
 }
 
 .menu-bar ul li:hover .dropdown-menu {
@@ -239,6 +245,10 @@ body {
     color: white;
     width: 10px;
 }
+
+.fas:hover{
+    color: #3498db;
+}
 /******MENU_BAR ENDS*******/
 
 /**** SECTION TWO BEGINS****/
@@ -273,4 +283,122 @@ h1{
 }
 
 /*** SECTION TWO ENDS****/
+
+/**** SECTION THREE  BEGINS***/
+
+.section-three{
+    display: flex;
+    padding: 80px 80px;
+}
+
+.section-three img{
+    height: 10rem;
+    width: 17rem;
+}
+
+.join-club{
+    width: 25%;  
+    margin-right: 10px;
+}
+
+
+.join-club a{
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: 1000;
+}
+
+.join-club a:hover{
+    color: black;
+}
+
+.join-club p{
+    line-height: 1.7;
+    padding: 1px 0 10px;
+    text-align: left;
+    width: 90%;
+    font-size: 18px;
+    color: #676767;
+}
+
+.book-now{
+    width: 20%; 
+    height: 400px;
+    background-color: rgba(238, 238, 238, 0.747);
+}
+
+.book-now h2{
+    padding: 0 20px;
+    font-weight: 1000px;
+    font-size: 30px;
+    color: #444444;
+}
+
+hr{
+    width:80%;
+}
+.book-now p{
+    line-height: 1.7;
+    padding: 0 20px;
+    color: #676767;
+}
+
+
+.btns {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 18px;
+    height: 40%;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    text-decoration: none;
+    top: 15px;
+}
+
+.btns:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+/***** SECTION THREE ENDS****/
+
+
+/***** SECTION FOUR BEGINS****/
+
+.section-four{
+    background-color: #c9cdd1;
+    display: flex;
+    padding: 80px 50px 40px;
+}
+
+.hand-wash{
+    text-align: center;
+    line-height: 1.7;
+}
+
+.hand-wash h2{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.hand-wash p{
+    padding: 1px 20px;
+}
+
+/**** SECTION FOUR ENDS****/
+
 

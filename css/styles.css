@@ -326,7 +326,7 @@ h1 {
     color: #444444;
 }
 
-hr {
+.book-now hr {
     width: 20%;
     border: solid;
     color: #3498db;
@@ -420,8 +420,6 @@ hr {
 
 .section-five p {
     text-align: center;
-    width: 42%;
-    margin-left: 29%;
     line-height: 1.7;
     font-size: 18px;
     color: #676767;
@@ -451,4 +449,136 @@ hr {
 .third-image-batch img {
     margin: 10px 0 15px;
     height: 12rem;
+}
+
+/*****SECTION FIVE ENDS***/
+
+/*****SECTION SIX BEGINS***/
+
+.section-six {
+    padding: 40px 80px;
+    background-color: #c9cdd1;
+
+}
+
+.section-six h2{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.section-six p {
+    text-align: center;
+    font-size: 18px;
+    color: #676767;
+}
+
+.section-six hr{
+    width: 4%;
+    border: solid;
+    color: #3498db;
+    border-bottom: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.sub-section-six{
+    display: flex;
+    padding: 30px 20px 0 0;
+}
+.section-six img {
+    height: 10rem;
+    width: 17rem;
+}
+.sub-1{
+    background-color: #ffffff;
+    width: 80rem;
+    margin-right: 35px;
+    height: 39rem;
+}
+
+.sub-1-img{
+    overflow: hidden;                                                                                                                                
+}
+.sub-1-img img{
+    width: 100%;
+    height: 10%;
+    transition: transform 0.3s;
+}
+.sub-1-img img:hover{
+    transform: scale(1.1);
+}
+
+.sub-1-text{
+    padding: 20px 40px;
+}
+
+.sub-1-text h2{
+    color: #0693e3;
+    text-align: left;
+}
+
+.sub-1-text a{
+    text-decoration: none;
+    color: #0693e3;
+}
+
+.sub-1-text a:hover{
+    color: black;
+}
+
+.sub-1-text p{
+    text-align: left;
+    line-height: 1.7;
+}
+
+.sub-3{
+    padding:0 10px;
+    width: 100%;
+}
+
+.sub-3 a{
+    text-decoration: none;
+    color: #0693e3;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+}
+.sub-3 a:hover{
+    color: black;
+}
+
+.sub-3 p{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+/**** SECTION SIX****/
+
+/**** SECTION SEVEN ****/
+
+.section-seven{
+    padding: 40px 80px;
+}
+
+.sub-section-seven{
+    display: flex;
+    padding: 30px 20px 0 0;
+}
+
+.section-seven img {
+    height: 15rem;
+    width: 17rem;
+}
+
+.section-seven-team h2{
+    font-size: 30px;
+}
+
+hr{
+    color: #0693e3;
+    border-bottom: none;
+    border: solid;
+    width: 12%;
+    border-radius: 10px;
 }
